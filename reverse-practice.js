@@ -32,6 +32,14 @@
 // } 
 // console.log(reverse);
 
+// alternative
+let name = 'Masuda Akter Tisha'
+let reverse = '';
+for(let i = 0; i < name.length; i ++){
+    reverse = name[i] + reverse ;
+} 
+console.log(reverse);
+
 //while loop
 // let name = 'Masuda Akter Tisha'
 // let reverse = '';
@@ -42,12 +50,12 @@
 // }
 // console.log(reverse);
 //do while
-let name = 'Masuda Akter Tisha'
-let reverse = '';
-let i = name.length - 1;
-do{
-    reverse = reverse + name[i];
-    i --;
-}
-while(i >= 0)
-console.log(reverse);
+// let name = 'Masuda Akter Tisha'
+// let reverse = '';
+// let i = name.length - 1;
+// do{
+//     reverse = reverse + name[i];
+//     i --;
+// }
+// while(i >= 0)
+// console.log(reverse);
